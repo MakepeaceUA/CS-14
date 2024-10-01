@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp9
 {
-    internal class Performance
+    internal class Performance : IDisposable
     {
         public string Title { get; set; }
         public string Theater { get; set; }
